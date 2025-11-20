@@ -1,0 +1,217 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.container a {
+    margin-left: 20px;
+    color: #fff;
+}
+.container select {
+    margin-left: 80px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+}
+.container option {
+    background: black;
+}
+.content {
+    margin: 50px;
+}
+.content a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+.content input {
+    margin-left: 250px;
+    width: 205px;
+    padding: 10px;
+    text-align: left;
+      background-color: #f5f5f5;
+    border: none;
+}
+.search {
+    margin-left: -25px;
+    margin-bottom: -5px;
+}
+.comment {
+   margin-bottom: -18px;
+   margin-left: 15px;
+}
+main {
+    margin-top: 200px;
+    padding: 0 355px;
+    margin-bottom: 180px;
+}
+.path {
+    text-align: left;
+    margin-top: -150px;
+}
+.path a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.navbar h4 {
+    font-size: 18px;
+}
+.navbar a {
+    color: #7d8184;
+    text-decoration: none;
+    margin-left: 32px;
+}
+.profile {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+legend {
+    color: #db4444;
+    font-size: 20px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 700px;
+    height: 630px;
+    margin-left: 200px;
+    margin-right: 90px;
+}
+.fname {
+    display: inline;
+    width: 200px;
+}
+label {
+    display: block;
+}
+.flname {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flname input {
+    background-color: #f5f5f5;
+    border: none;
+    width: 330px;
+    height: 50px;
+    padding-left: 15px;
+}
+#passw {
+    height: 50px;
+    border: none;
+    background-color: #f5f5f5;
+}
+.current {
+      height: 50px;
+    border: none;
+    background-color: #f5f5f5;
+}
+.sub {
+    direction: rtl;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+}
+.save {
+    background-color: #db4444;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    padding-left: 20px;
+}
+.save:hover {
+    background: rgb(248, 10, 10);
+}
+.cancel {
+    border: none;
+    font-size: 16px;
+    background-color: white;
+}
+footer {
+    background-color: black;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 50px 150px 40px;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.fcolumn {
+    display: inline-block;
+    text-align: left;
+    margin: 0 -10px;
+}
+footer span {
+    display: block;
+    margin: 10px 0 10px;
+    margin: 14px 0;
+}
+.footer li {
+    display: inline;
+    list-style: none;
+    margin: 0px 10px;
+}
+.footer address {
+    text-emphasis: none;
+    font-style: normal;
+}
+footer h3 {
+    font-size: 30px;
+    margin-bottom: 12px;
+    font-style: normal;
+}
+footer h4 {
+    font-size: 25px;
+    font-weight: normal;
+}
+.footer span {
+    font-size: 17px;
+}
+.footer input {
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px 8px 10px 10px;
+    border-radius: 6px;
+}
+.fsend {
+    text-align: right;
+    margin-top: -32px;
+    margin-right: 10px;
+}
+.fimg {
+    display: flex;
+    margin-bottom: 15px;
+}
+.appmarket img {
+    display: block;
+    margin-left: 8px ;
+}
+.copyright {
+    text-align: center;
+    padding: 15px;
+}
