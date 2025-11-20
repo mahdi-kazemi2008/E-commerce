@@ -1,0 +1,264 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.container a {
+    margin-left: 20px;
+    color: #fff;
+}
+.container select {
+    margin-left: 80px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+}
+.container option {
+    background: black;
+}
+.content {
+    margin: 50px;
+}
+.content a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+.content input {
+    margin-left: 250px;
+    width: 205px;
+    padding: 10px;
+    text-align: left;
+      background-color: #f5f5f5;
+    border: none;
+}
+.search {
+    margin-left: -25px;
+    margin-bottom: -5px;
+}
+.comment {
+   margin-bottom: -12px;
+   margin-left: 15px;
+}
+.main {
+    padding: 0 355px;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+.path {
+    text-align: left;
+    margin-bottom: 100px;
+}
+.path a {
+    color: gray;
+    text-decoration: none;
+    font-size: 17px;
+}
+.main h2 {
+    font-size: 40px;
+    text-align: left;
+    margin-left: -160px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.billdetails {
+    margin-left: -150px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 25px;
+}
+.inputs input {
+    height: 30px;
+    background-color: #f5f5f5;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: -5px;
+}
+.inputs label {
+    color: gray;
+    margin-bottom: -20px;
+}
+.radio {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    color: #bd4444;
+}
+.radio label {
+    margin-top: 5px;
+    font-size: 18px;
+    color: black;
+}
+.shop {
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+.prices {
+    display: flex;
+    flex-direction: column;
+}
+.subtotal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.srow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(197, 191, 191);
+    border-bottom: 1px solid  rgb(197, 191, 191) ;
+    padding: 15px;
+}
+.checking {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.check {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin-left: -30px;
+}
+.coupon {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: -160px;
+}
+.coupon input {
+    padding: 10px
+}
+.coupon button {
+    margin-left: 15px;
+    width: 150px;
+    background-color: #bd4444;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+}
+.coupon button:hover {
+    background: rgb(99, 5, 5);
+}
+.placeorder {
+    background-color: #bd4444;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    position: relative;
+    top: 110px;
+    left: -380px;
+}
+.placeorder:hover {
+    background: rgb(99, 5, 5);;
+}
+footer {
+    background-color: black;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 50px 150px 40px;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.fcolumn {
+    display: inline-block;
+    text-align: left;
+    margin: 0 -10px;
+}
+footer span {
+    display: block;
+    margin: 10px 0 10px;
+    margin: 14px 0;
+}
+.footer li {
+    display: inline;
+    list-style: none;
+    margin: 0px 10px;
+}
+.footer address {
+    text-emphasis: none;
+    font-style: normal;
+}
+footer h3 {
+    font-size: 30px;
+    margin-bottom: 12px;
+    font-style: normal;
+}
+footer h4 {
+    font-size: 25px;
+    font-weight: normal;
+}
+.footer span {
+    font-size: 17px;
+}
+.footer input {
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px 8px 10px 10px;
+    border-radius: 6px;
+}
+.fsend {
+    text-align: right;
+    margin-top: -32px;
+    margin-right: 10px;
+}
+.fimg {
+    display: flex;
+    margin-bottom: 15px;
+}
+.appmarket img {
+    display: block;
+    margin-left: 8px ;
+}
+.copyright {
+    text-align: center;
+    padding: 15px;
+}
