@@ -1,0 +1,150 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.container a {
+    margin-left: 20px;
+    color: #fff;
+}
+.container select {
+    margin-left: 80px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+}
+.container option {
+    background: black;
+}
+.content {
+    margin: 50px;
+}
+.content a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+.input {
+    width: 205px;
+    margin-left: 155px;
+    padding: 15px;
+    text-align: left;
+    background-color: #f5f5f5;
+    border: none;
+}
+.search {
+    margin-left: -25px;
+    margin-bottom: -5px;
+}
+.SEARCH {
+    margin-left: 25px;
+    margin-bottom: -7px;
+}
+.home {
+    margin: 70px;
+}
+.home a {
+    text-decoration: none;
+    color: black;
+}
+.part {
+    text-align: center;
+    font-size: 1.2rem;
+}
+.part h1 {
+    letter-spacing: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn {
+    margin-bottom: 20px;
+    width: 200px;
+    background: red;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: rgba(219, 23, 23, 0.872);
+    transform: rotate(360deg);
+}
+footer {
+    background-color: black;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 50px 150px 40px;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.fcolumn {
+    display: inline-block;
+    text-align: left;
+    margin: 0 -10px;
+}
+footer span {
+    display: block;
+    margin: 10px 0 10px;
+    margin: 14px 0;
+}
+.footer li {
+    display: inline;
+    list-style: none;
+    margin: 0px 10px;
+}
+.footer address {
+    text-emphasis: none;
+    font-style: normal;
+}
+footer h3 {
+    font-size: 30px;
+    margin-bottom: 12px;
+    font-style: normal;
+}
+footer h4 {
+    font-size: 25px;
+    font-weight: normal;
+}
+.footer span {
+    font-size: 17px;
+}
+.footer input {
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px 8px 10px 10px;
+    border-radius: 6px;
+}
+.fsend {
+    text-align: right;
+    margin-top: -32px;
+    margin-right: 10px;
+}
+.fimg {
+    display: flex;
+    margin-bottom: 15px;
+}
+.appmarket img {
+    display: block;
+    margin-left: 8px ;
+}
+.copyright {
+    text-align: center;
+    padding: 15px;
+}
+
