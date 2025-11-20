@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat","Poppins","Nunito";
+}
+.first-header{
+    background: black;
+    color: white;
+    /* position: relative;
+    top: 0;
+    left:0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+
+}
+.first-header a{
+    color: white;
+    margin-left: 10px;
+}
+.first-header select{
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    background: none;
+    outline: none;
+    color: white;
+    border: none;
+}
+.first-header select option{
+    color: black;
+}
+.second-header{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    justify-content: space-between;
+}
+.second-header ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.search-bar{
+    position: relative;
+}
+.search-bar input{
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 38px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding-left: 15px;
+}
+.search-bar svg{
+    position: absolute;
+    top: 25%;
+    right: 5%;
+}
+.header-icon svg{
+    transition: 0.8s ease;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 50%;
+    margin: 0px 5px;
+}
+.header-icon svg:hover{
+    background-color: #DE5353;
+}
+.header-icon svg path {
+    transition: 0.5s ease;
+}
+.header-icon svg:hover path {
+    stroke: #fff;
+}
+.user-settings{
+    width: 225px;
+    height: 208px;
+    box-shadow: 0px 0px 30px rgba(255, 255,255,0.37);
+    background-color: #DE5353;
+    border-radius: 4px;
+    position: absolute;
+    display: inline-block;
+    pointer-events: none;
+    transition: 0.2s;
+    color: #F5F5F5;
+    font-size: 15px;
+    opacity: 0;
+    top: 110px;
+    right: 30px;
+    z-index: 100;
+}
+.user-settings ul li svg:hover{
+    background: none;
+    stroke: #f0f0f0;
+}
+.user-settings ul li{
+    margin-top: 3px;
+    cursor: pointer;
+}
+.header-icon .user:hover ~ .user-settings, .user-settings:hover{
+    top: 120px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.second-header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.second-header ul li a:hover{
+    text-decoration: underline;
+}
+
+main, section{
+    padding: 50px;
+}
+main span{
+    color: #817b7b;
+}
+main span{
+    color: #000;
+}
+section{
+    margin: 0 auto;
+}
+.header, .product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    height: 72px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 30px rgba(236, 226, 226, 0.37);
+    padding: 0 20px;
+    margin: 20px;
+
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.buttons button{
+    background: none;
+    color: #000;
+    border: none;
+    border: 1px solid #9e9e9e;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px 50px;
+    margin: 30px 0;
+    margin-right: 35px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+    width: 218px;
+    height: 56px;
+}
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total input[type="text"]{
+    background: none;
+    width: 270px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #9e9e9e;
+    border-radius: 4px;
+    padding-left: 15px;
+}
+.total button{
+    background-color: #DE5353;
+    border: none;
+    color: #fff;
+    outline: none;
+    border-radius: 5px;
+    padding: 12px 50px;
+    margin: 30px 0;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+.total button:hover{
+    background-color: #e77272;
+}
+.total h3{
+    margin-bottom: 20px;
+}
+.total .right{
+    border: 2px solid #000;
+    border-radius: 4px;
+    width: 470px;
+    height: 324px;
+    padding: 30px;
+    position: relative;
+}
+.total .right button{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+}
+.total .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.name{
+    display: flex;
+    align-items: center;
+}
+.name p{
+    margin-left: 5px;
+}
+.quantity{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #000;
+    width: 72px;
+    height: 44px;
+    margin-right: 50px;
+}
+.product .price{
+    margin-left: -70px;
+}
+.quantity .bar{
+    display:contents;
+}
+.total .price{
+    padding: 15px 0;
+}
+.ffooter {
+    background-color: black;
+}
+.ffooter .footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 50px 150px 40px;
+}
+.ffooter .footer a {
+    text-decoration: none;
+    color: white;
+}
+.ffooter .fcolumn {
+    display: inline-block;
+    text-align: left;
+    margin: 0 -10px;
+}
+.ffooter span {
+    display: block;
+    margin: 10px 0 10px;
+    margin: 14px 0;
+}
+.ffooter .footer li {
+    display: inline;
+    list-style: none;
+    margin: 0px 10px;
+}
+.ffooter .footer address {
+    text-emphasis: none;
+    font-style: normal;
+}
+.ffooter h3 {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+.ffooter h4 {
+    font-size: 20px;
+    font-weight: normal;
+}
+.ffooter .footer span {
+    font-size: 15px;
+}
+.ffooter .footer input {
+    background-color: black;
+    color: gray;
+    border: 2px solid white;
+    padding:  10px 10px 10px 10px;
+    border-radius: 6px;
+}
+.ffooter .fsend {
+    text-align: right;
+    margin-top: -33px;
+    margin-right: 13px;
+}
+.ffooter .fimg {
+    display: flex;
+    margin-bottom: 14px;
+}
+.ffooter .appmarket img {
+    display: block;
+    margin-left: 8px;
+}
+.ffooter .copyright {
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
+.return{
+    position: absolute;
+    top: 800%;
+    right: 50px;
+}
+.colors{
+    display: flex;
+}
+.colors .red{
+    margin: 0 3px;
+}
